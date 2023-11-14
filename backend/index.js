@@ -23,7 +23,5 @@ db.on(
 db.once("open", function () {
   console.log("Conexión correcta a la base de datos  de MongoDB");
 });
-<<<<<<< Updated upstream
-=======
+
 // probando hacer un commit desde la nueva carpeta
->>>>>>> Stashed changes
