@@ -1,36 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --primary-color: #21232D;
-  --secondary-color: #BA0909 ;
-  --font-family-primary: 'Lato', sans-serif;
-  --font-family-secondary: 'Montserrat', sans-serif;
-  --font-family-tertiary: 'Open Sans', sans-serif;
-  --font-family-quaternary: 'Poppins', sans-serif;
-  --font-family-quinary: 'Roboto', sans-serif;
-} */
+:root {
+  --primary-color: #21232d;
+  --secondary-color: #ba0909;
+  --font-family-primary: "Lato", sans-serif;
+  --font-family-secondary: "Montserrat", sans-serif;
+  --font-family-tertiary: "Open Sans", sans-serif;
+  --font-family-quaternary: "Poppins", sans-serif;
+  --font-family-quinary: "Roboto", sans-serif;
+}
 
-.padreFooter{
+.padreFooter {
   display: flex;
   justify-content: space-around;
-  background-color: #20232D ;
+  background-color: #20232d;
   color: white;
-
 }
-.logoFooter{
+.logoFooter {
   width: 300px;
   height: 300px;
 }
-.logoFooter
-img {
-width: 285px;
-height: 270px;
-margin-top: 15px;
-border-radius: 7px;
+.logoFooter img {
+  width: 285px;
+  height: 270px;
+  margin-top: 15px;
+  border-radius: 7px;
 }
 .infoContacto {
   margin-top: 50px;
@@ -44,13 +42,12 @@ border-radius: 7px;
 }
 .iconTexto {
   display: inline-flex;
-  align-items: center; 
-  margin-right: 5px; 
+  align-items: center;
+  margin-right: 5px;
   margin-top: 20px;
 }
 
-.socialMedia 
- {
+.socialMedia {
   display: flex;
   justify-content: space-around;
   margin-top: 45px;
@@ -61,12 +58,11 @@ border-radius: 7px;
   margin-top: 35px;
   font-size: 20px;
 }
-.enlacesFooter 
-a{
+.enlacesFooter a {
   display: flex;
   margin-left: 15px;
 }
-.footerFinal{
+.footerFinal {
   display: flex;
   justify-content: space-around;
   background-color: rgba(218, 5, 33, 0.867);

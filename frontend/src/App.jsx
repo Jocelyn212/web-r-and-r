@@ -1,15 +1,13 @@
-import Footer from './components/Footer';
-import './index.css';
+import Footer from "./components/Footer";
+import About from "./pages/about";
+import "./index.css";
 
 function App() {
-
-
   return (
     <>
-
-<Footer/>
+      <About />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
